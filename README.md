@@ -76,7 +76,39 @@ These are proposed measures, not actual results.
 
 Digital payments may create a useful transaction history, but this concept does not claim that a payment product by itself formalizes employment or eliminates the informal economy.
 
-## 9. References
+Payment failure playbook
+
+*Scenario:* A customer sees a debit, but the merchant has not received payment confirmation.
+
+1. Show a clear status: Pending, Completed, or Failed.
+2. If the payment is still pending, tell the customer not to retry until its status is confirmed. This helps avoid duplicate payments.
+3. Operations checks the transaction reference and the relevant payment partner's status.
+4. Confirm the payment or resolve it according to the transaction status. Keep both customer and merchant informed.
+5. Review whether similar failures are concentrated by partner, location, or payment method.
+
+*Measures to monitor:* payment success rate, duplicate-payment reports, time to resolve, and support contacts per 1,000 transactions.
+
+## 9. Pilot decision gates
+
+*Before launch*
+
+- Confirm payment acceptance with participating merchants.
+- Confirm the cash-in/cash-out partner model is feasible.
+- Agree on onboarding, fraud, support, and incident processes.
+
+*During the pilot*
+
+- Review payment failures and customer contacts daily.
+- Review first-payment activation and repeat use weekly.
+- Record merchant feedback and recurring points of friction.
+
+*Expansion decision*
+
+Expand only if adoption, payment reliability, customer support, and risk measures meet targets agreed before the pilot. Pause and investigate if customers report unexplained debits, repeated failures, or unclear payment status.
+
+All targets are planning assumptions to be set after baseline research. No real customer or payment data is used in this case study.
+
+## 10. References
 
 - [BCRP research: adoption and effects of digital wallets in Peru](https://investigacion.bcrp.gob.pe/es/investigaciones/documentos-de-trabajo/dt-2025/dt-2025-006)
 - [Peru's QR and payment interoperability regulation](https://busquedas.elperuano.pe/dispositivo/NL/2113366-1)
